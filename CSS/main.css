@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+    color: fuchsia;
+    text-align: center;
+}
+.display-none {
+    display: none;
+}
+.show-wrapper{
+    display: none;
+}
+
+.photos-wrapper {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+  
+}
+.nasa-item{
+    gap: 1rem;;
+    text-align: center;
+}
+.media {
+    gap: 1rem;
+    max-width: 100%;
+}
+
+
