@@ -56,6 +56,7 @@ function displayData(data) {
     
         photosWrapper.innerHTML += dataHTML
     }
+    mainBtn.addEventListener('click', function (e) {getData()});
     
 };
 

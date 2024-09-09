@@ -8,6 +8,7 @@ body{
 }
 .show-wrapper{
     display: none;
+    
 }
 
 .photos-wrapper {
@@ -20,9 +21,14 @@ body{
 .nasa-item{
     gap: 1rem;;
     text-align: center;
+    align-items: center;
 }
 .media {
     gap: 1rem;
+    max-width: 100%;
+
+}
+img {
     max-width: 100%;
 }
 
